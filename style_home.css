@@ -76,6 +76,10 @@ body {
   color: #d78b8b;                 
 }
 
+html {
+  scroll-behavior: smooth;         /* efek scroll halus */
+}
+
 .hero {
   background: rgba(0, 0, 0, 0.5) url(pixtures/homebg.jpg) no-repeat center center/cover;
       height: 100vh;
