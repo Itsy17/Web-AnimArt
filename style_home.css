@@ -126,12 +126,12 @@ html {
     }
 
   .marketplace {
-  padding: 40px;
+  padding: 40px 40px 200px 40px; 
   color: white;
 }
 
 .marketplace h2 {
-  font-size: 32px;
+  font-size: 50px;
   margin-bottom: 20px;
   text-align: center;
 }
@@ -193,4 +193,29 @@ html {
   height: auto;          /* biar menyesuaikan isi */
   flex-direction: column; /* gambar di atas, teks di bawah */
   padding: 10px;
+}
+
+.site-footer {
+  background: #111;
+  color: #fff;
+  padding: 50px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+}
+
+.site-footer a {
+  color: grey; /* warna link */
+  text-decoration: none;
+  margin: 10px 50px;
+  transition: color 0.3s;
+}
+
+.site-footer a:hover {
+  color: #fff; /* efek hover */
+}
+
+.footer-right a {
+  font-size: 20px;
 }
