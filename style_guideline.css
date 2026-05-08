@@ -9,6 +9,23 @@
     border-bottom-right-radius: 100px;
     }
 
+    .hero h1{
+        margin-top:10% ;
+        font-size: 40px;
+        color:white ;
+        left: 20%;
+        z-index: 2;
+    }
+
+    .hero p{
+        font-size: 20px;
+        color: white;
+        text-align:left ;
+        margin: 1%;
+        margin-bottom: 0%;
+        z-index: 2;
+    }
+
     .hero .overlay {
       position: absolute;
       top: 0;
