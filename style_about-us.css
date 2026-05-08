@@ -1,0 +1,77 @@
+.hero {
+      background: rgba(0, 0, 0, 0.5) url(pixtures/aboutusbanner.jpg) no-repeat center/cover;
+      height: 120vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    }
+
+    .hero h1{
+        font-size: 40px;
+        color:white ;
+        text-align: center;
+        align-items: center;
+        margin-top: 20%;
+        left: 20%;
+        text-shadow:  -1px -1px 0 black, 1px -1px 0 black, -1px -1px 0 black, 1px -1px 0 black;
+        z-index: 2;
+    }
+
+    .hero p{
+        font-size: 20px;
+        color: white;
+        align-items: center;
+        margin-top: 1%;
+        margin: 10%;
+        letter-spacing: 3px;
+        text-shadow:  -1px -1px 0 black, 1px -1px 0 black, -1px -1px 0 black, 1px -1px 0 black;;
+        z-index: 2;
+    }
+
+    .hero .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 120%;
+      background: rgba(0, 0, 0, 0.5); /* lapisan gelap */
+      z-index: 1; /* pastikan di bawah teks */
+    }
+    
+
+  .shape {
+  position:absolute;
+  top: 13%;
+  left: 0%;
+  background-color:#EDF5FE;      
+  padding: 20px 70px;
+  border-radius: 15px;             
+  width: 20vh;             
+  margin: 0px auto;        
+  z-index: 3; 
+  
+  
+
+  border-top-left-radius: 0px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 100px;
+}
+
+.shape h1 {
+  font-size: 20px;
+  font-weight: normal; 
+  color: black;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.shape a {
+  text-decoration: none;
+  color: #333;                   
+  font-weight:normal;
+  font-size: 1px;
+  transition: color 0.3s;
+}
