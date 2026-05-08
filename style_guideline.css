@@ -9,3 +9,37 @@
     border-bottom-right-radius: 100px;
     }
     
+
+  .shape {
+  position:absolute;
+  top: 25%;
+  left: 20%;
+  right: 20%;
+  background-color: #000000;      
+  padding: 20px 70px;
+  border-radius: 15px;             
+  width: 100vh;             
+  margin: 0px auto;        
+  z-index: 1;       
+
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+.shape h1 {
+  font-size: 20px;
+  color: white;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px -1px 0 black, 1px -1px 0 black;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.shape a {
+  text-decoration: none;
+  color: #333;                   
+  font-weight:normal;
+  font-size: 1px;
+  transition: color 0.3s;
+}
