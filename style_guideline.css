@@ -1,9 +1,10 @@
 .hero {
-      position: relative;
-      text-align: center;
-      background: url('anime-bg.jpg') no-repeat center center/cover;
-      height: 400px;
+      background: rgba(0, 0, 0, 0.5) url(pixtures/guidelinebanner.jpg) no-repeat center center/cover;
+      height: 500vh;
       display: flex;
+      flex-direction: column;
       justify-content: center;
-      align-items: center;
+      align-items: flex-start;
+      border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
     }
