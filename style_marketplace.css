@@ -1,5 +1,5 @@
 .marketplace {
-  padding: 40px 40px 200px 40px; 
+  padding: 100px 0px 200px 0px; 
   color: white;
 }
 
@@ -7,4 +7,129 @@
   font-size: 50px;
   margin-bottom: 20px;
   text-align: center;
+}
+
+.illustrator{
+    background-color:rgba(0, 0, 0, 0);
+    background-image: url("pixtures/illustratormarketbanner.jpg");
+    background-position: 0% 47%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.illustrator .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5); /* lapisan gelap */
+      z-index: 1; /* pastikan di bawah teks */
+    }
+.illustrator h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  text-shadow: 1px -1px 0 rgba(0, 0, 0, 0.2), 1px -1px 0 rgba(0, 0, 0, 0.2), -1px -1px 0 rgba(0, 0, 0, 0.2), 1px -1px 0 rgba(0, 0, 0, 0.2);
+  z-index: 2;
+}
+.artworkbanner{
+    background-color:rgba(0, 0, 0, 0);
+    background-image: url("pixtures/artworkmarketbanner.jpg");
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.artworkbanner .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5); /* lapisan gelap */
+      z-index: 1; /* pastikan di bawah teks */
+    }
+.artworkbanner h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-shadow: 1px -1px 0 rgba(0, 0, 0, 0.2), 1px -1px 0 rgba(0, 0, 0, 0.2), -1px -1px 0 rgba(0, 0, 0, 0.2), 1px -1px 0 rgba(0, 0, 0, 0.2);
+  margin-left: 86%;
+  z-index: 2;
+}
+
+.scroll-container {
+  text-align: center;
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+.scroll-container::-webkit-scrollbar {
+  height: 8px;              /* tinggi scrollbar horizontal */
+}
+
+.scroll-container::-webkit-scrollbar-track {
+  background: #222;         /* warna track */
+  border-radius: 10px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg,  #edf5fe41,#edf5fe41); /* warna thumb */
+  border-radius: 10px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb:hover {
+  background: #EDF5FE;      /* warna saat hover */
+}
+
+
+.card {
+  flex: 0 0 auto;
+  width: 25 0px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  flex-direction: column;   /* gambar di atas, teks di bawah */
+  align-items: center;
+  padding: 10px;
+  transition: transform 0.3s, background 0.3s;
+}
+
+.card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;        /* gambar menyesuaikan kotak */
+  border-radius: 8px;
+}
+.card:hover {
+  background: #444;
+  transform: scale(1.05);  /* efek zoom saat hover */
+}
+.card.artwork {
+  width: 400px;          /* lebih lebar khusus artwork */
+  height: auto;          /* biar menyesuaikan isi */
+  flex-direction: column; /* gambar di atas, teks di bawah */
+  padding: 10px;
 }
