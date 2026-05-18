@@ -1,0 +1,52 @@
+    /* User Section */
+    .profile-card {
+      background-color: #2a2a2a;
+      margin: 40px auto;
+      padding: 30px;
+      border-radius: 20px;
+      width: 80%;
+      text-align: center;
+    }
+
+    .profile-card img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #ffffff;
+      margin-bottom: 15px;
+    }
+
+    .profile-card h2 {
+      font-size: 24px;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    .gallery {
+        color: white;
+      margin: 40px;
+    }
+
+    .gallery h2 {
+      margin-bottom: 20px;
+      font-size: 22px;
+    }
+
+    .gallery-container {
+      display: flex;
+      gap: 20px;
+    }
+
+    .gallery-container img {
+      width: 300px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 10px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .gallery-container img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 15px #a855f7;
+    }
