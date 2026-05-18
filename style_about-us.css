@@ -75,3 +75,157 @@
   font-size: 1px;
   transition: color 0.3s;
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #1e1e1e;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.contact-box{
+    width: 900px;
+    background: #2c2830;
+    padding: 40px 50px;
+    color: white;
+}
+
+/* TITLE */
+.title-line{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 35px;
+}
+
+.title-line h2{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.line{
+    flex: 1;
+    height: 1px;
+    background: #8f8f8f;
+}
+
+/* CONTACT ITEM */
+.contact-item{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+
+.contact-item p{
+    font-size: 20px;
+    color: #f1f1f1;
+}
+
+/* ICON */
+.icon{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+
+/* EMAIL ICON */
+.email{
+    border: 2px solid #8b6cff;
+    color: #8b6cff;
+}
+
+/* WHATSAPP ICON */
+.whatsapp{
+    border: 2px solid #00aaff;
+    color: #00aaff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #1e1e1e;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.contact-box{
+    width: 900px;
+    background: #2c2830;
+    padding: 40px 50px;
+    color: white;
+}
+
+/* TITLE */
+.title-line{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 35px;
+}
+
+.title-line h2{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.line{
+    flex: 1;
+    height: 1px;
+    background: #8f8f8f;
+}
+
+/* CONTACT ITEM */
+.contact-item{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+
+.contact-item p{
+    font-size: 20px;
+    color: #f1f1f1;
+}
+
+/* ICON */
+.icon{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+
+/* EMAIL ICON */
+.email{
+    border: 2px solid #8b6cff;
+    color: #8b6cff;
+}
+
+/* WHATSAPP ICON */
+.whatsapp{
+    border: 2px solid #00aaff;
+    color: #00aaff;
+}
