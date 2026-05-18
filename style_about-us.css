@@ -20,11 +20,11 @@
     }
 
     .hero p{
-        font-size: 20px;
+        font-size: 25px;
         color: white;
         align-items: center;
         margin-top: 1%;
-        margin: 10%;
+        margin: 20%;
         letter-spacing: 3px;
         text-shadow:  -1px -1px 0 black, 1px -1px 0 black, -1px -1px 0 black, 1px -1px 0 black;;
         z-index: 2;
@@ -48,7 +48,7 @@
   background-color:#EDF5FE;      
   padding: 20px 70px;
   border-radius: 15px;             
-  width: 20vh;             
+  width: 30vh;             
   margin: 0px auto;        
   z-index: 3; 
   
@@ -61,7 +61,7 @@
 }
 
 .shape h1 {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: normal; 
   color: black;
   margin: 0 auto;
